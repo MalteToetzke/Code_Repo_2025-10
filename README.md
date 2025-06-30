@@ -12,7 +12,7 @@ pip install requirements.txt
 ## ITEMS
 
 ### Classifiers
-Replicate the training and validation of the classifiers used in the paper. 
+Replicate the training and validation of the classifiers used in the paper. Note: the relevance classifier (relevane_classifier_climatetech.py) automatically downloads the underlying transformer model at runtime from https://huggingface.co/climatebert/distilroberta-base-climate-f, if it is not already stored locally. For all other classification scripts, the DeepSeek model requires to setup a token for accessing the API. 
 
 Run the following commands from the Shell to run the classifiers:
 ``` 
@@ -21,7 +21,7 @@ python Classifiers/Collaboration_classifier.py  # runs the collaboration classif
 python Classifiers/organization_type_classifier.py  # runs the organization type classifier to classify LinkedIn company profiles and compare with manually annotated data
 python Classifiers/sector.py  # runs the sector classifier to classify LinkedIn company profiles and compare with manually annotated data
 ```
-All outputs are stored in the base folder
+All outputs are stored in the base folder.
 
 #### Data
 Data used for validation and training of classifications scripts
