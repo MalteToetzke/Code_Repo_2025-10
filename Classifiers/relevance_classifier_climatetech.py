@@ -11,7 +11,7 @@ import pickle
 
 # Training configuration
 class_number = 2
-base_model = 'climatebert/distilroberta-base-climate-f'
+base_model = 'climatebert/distilroberta-base-climate-f' #model is automatically downloaded at runtime if it is not already stored locally
 n_words = 250
 batch_size = 64
 learning_rate = 1e-6
@@ -45,7 +45,7 @@ test_text = test_df['text']
 test_labels = test_df['label']
 
 # Load model and tokenizer
-auto_model = AutoModelForSequenceClassification.from_pretrained(base_model, num_labels=class_number)
+auto_model = AutoModelForSequenceClassification.from_pretrained(base_model, num_labels=class_number) #model is automatically downloaded at runtime if it is not already stored locally
 tokenizer = AutoTokenizer.from_pretrained(base_model)
 
 # Tokenization helper
