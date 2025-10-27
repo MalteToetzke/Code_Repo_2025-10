@@ -37,7 +37,7 @@ The data used to replicate plots, tables, and descriptives stated in the paper (
 
 Note: the files were too large to be included in Github. Download them from the link below and place them in the Data folder:
 
-Download link: https://polybox.ethz.ch/index.php/s/yHoCqw5zGAxfTYm (Password is stated in the Response Letter)
+Download link: https://polybox.ethz.ch/index.php/s/yHoCqw5zGAxfTYm (Password is stated in the Data Availability statement of the Manuscript)
 
 Important: The data must only be used exclusively for validation purposes! Sharing the data or using the data for other purposes is strictly prohibited!
 
